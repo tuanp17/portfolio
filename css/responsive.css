@@ -1,0 +1,49 @@
+@media screen and (min-width:480px) {
+	.primary {
+		width: 50%;
+		float: left;
+	}
+
+	.secondary {
+		width: 45%;
+		float: right;
+	}
+
+/*build 3 layout column for gallery*/
+	#gallery li {
+		width: 28.333333%; /* each pic has 2.5% margin -> two sides for pic is 5% -> 3 columns is 15% -> left 85% for pic -> 85% for 5 pic is 28.3333%*/
+	}
+
+	#gallery li:nth-child(4n) {
+		clear: left;
+	}
+
+	.profile-pic {
+		float: right;
+		margin: 0 5% 20% 0;
+	}
+
+	nav {
+		background: none;
+		float: right;
+		font-size: 1.35em;
+		margin-right: 5%;
+		text-align: right;
+		width: 45%;
+	}
+
+	#logo {
+		float: left;
+		text-align: left;
+		margin: 0 0 0 5%;
+	}
+
+	header {
+		border-bottom: 3px solid lightblue;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (min-width: 660px) {
+
+}
